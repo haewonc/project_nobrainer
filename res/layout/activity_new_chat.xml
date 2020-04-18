@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <EditText
+        android:id="@+id/chatCode"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="참여 코드를 입력해주세요."
+        android:fontFamily="@font/notosans_light"
+        android:imeOptions="actionDone"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/prevChatSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="채팅방 입장하기"
+        android:fontFamily="@font/notosans_medium"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="채팅방 이름"
+        android:fontFamily="@font/notosans_medium"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/chatName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="15자 이내로 입력해주세요."
+        android:imeOptions="actionDone"
+        android:fontFamily="@font/notosans_light"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="브레인스토밍 주제"
+        android:fontFamily="@font/notosans_medium"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/chatKey"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="한 단어로 입력해주세요."
+        android:fontFamily="@font/notosans_light"
+        android:imeOptions="actionDone"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="브레인스톰 제한 시간"
+        android:fontFamily="@font/notosans_medium"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/chatTime"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="분 단위입니다"
+        android:fontFamily="@font/notosans_light"
+        android:inputType="number"
+        android:maxLength="1"
+        android:imeOptions="actionDone" />
+
+    <Button
+        android:id="@+id/newChatSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:fontFamily="@font/notosans_medium"
+        android:text="채팅방 만들기"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+</LinearLayout>
