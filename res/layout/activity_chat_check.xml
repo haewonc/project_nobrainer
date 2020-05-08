@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="채팅방이 만들어졌습니다."
+            android:text="당신의 채팅방이 만들어졌습니다."
             android:layout_marginBottom="10dp"
             android:gravity="center"
             android:textSize="20sp"
